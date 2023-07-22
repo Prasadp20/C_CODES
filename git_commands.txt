@@ -6,3 +6,14 @@ git status
 git add -A (to add all untracked files) or git add specific_file_name
 git commit -m "commit message of your choice"
 git push
+
+git branch  (to check on which branch you are)
+git branch -a  (to check what all branches you have)
+git checkout <branch_name>  (To switch to different branch)
+git branch temp_c2w (To create new branch)
+
+To merge temp branch(here "temp_c2w" ) to main branch (here "main").
+Let say, you have added some files in "temp_c2w" that you need to merge to "main".
+git checkout main  (considering you were in "temp_c2w" branch)
+git merge --no-ff temp_c2w  (here "temp_c2w" codes will be merged with "main" branch)
+git push
