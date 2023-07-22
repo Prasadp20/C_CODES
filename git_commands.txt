@@ -1,0 +1,8 @@
+E:
+git clone https://github.com/Prasadp20/C-Language-Codes.git
+cd C-Language-Codes
+type NUL > HelloWorld.c
+git status
+git add -A (to add all untracked files) or git add specific_file_name
+git commit -m "commit message of your choice"
+git push
